@@ -1,0 +1,38 @@
+
+Start-Date: 2018-11-01  00:22:43
+Commandline: apt-get install libssl-dev
+Requested-By: roy (1000)
+Install: libssl-dev:amd64 (1.1.0h-2.0+ubuntu18.04.1+deb.sury.org+1), libssl-doc:amd64 (1.1.0h-2.0+ubuntu18.04.1+deb.sury.org+1, automatic)
+Upgrade: libssl1.1:amd64 (1.1.0g-2ubuntu4.1, 1.1.0h-2.0+ubuntu18.04.1+deb.sury.org+1)
+End-Date: 2018-11-01  00:22:51
+
+Start-Date: 2018-11-01  00:40:20
+Commandline: apt-get install nagios-nrpe-plugin
+Requested-By: roy (1000)
+Install: nagios-nrpe-plugin:amd64 (3.2.1-1ubuntu1)
+End-Date: 2018-11-01  00:40:21
+
+Start-Date: 2018-11-01  11:09:38
+Commandline: apt install xinetd*
+Requested-By: roy (1000)
+Install: xinetd:amd64 (1:2.3.15.3-1)
+End-Date: 2018-11-01  11:09:41
+
+Start-Date: 2018-11-01  16:28:24
+Commandline: apt install curl
+Requested-By: roy (1000)
+Install: curl:amd64 (7.58.0-2ubuntu3.5)
+Upgrade: libcurl4:amd64 (7.58.0-2ubuntu3.3, 7.58.0-2ubuntu3.5)
+End-Date: 2018-11-01  16:28:26
+
+Start-Date: 2018-11-01  19:03:16
+Commandline: apt-get install git
+Requested-By: roy (1000)
+Install: git-man:amd64 (1:2.17.1-1ubuntu0.3, automatic), git:amd64 (1:2.17.1-1ubuntu0.3), liberror-perl:amd64 (0.17025-1, automatic)
+End-Date: 2018-11-01  19:03:24
+
+Start-Date: 2018-11-01  19:04:45
+Commandline: apt-get install gitk
+Requested-By: roy (1000)
+Install: tk:amd64 (8.6.0+9, automatic), libtcl8.6:amd64 (8.6.8+dfsg-3, automatic), gitk:amd64 (1:2.17.1-1ubuntu0.3), tcl:amd64 (8.6.0+9, automatic), tk8.6:amd64 (8.6.8-4, automatic), tcl8.6:amd64 (8.6.8+dfsg-3, automatic), libtk8.6:amd64 (8.6.8-4, automatic)
+End-Date: 2018-11-01  19:04:49

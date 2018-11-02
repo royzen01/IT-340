@@ -1,0 +1,27 @@
+Ubiquity 18.04.14.6
+/usr/lib/ubiquity/ubiquity/frontend/gtk_ui.py:54: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, Gdk, GObject, GLib, Atk, Gio
+
+(ubiquity:1381): IBUS-WARNING **: 21:51:20.402: The owner of /home/ubuntu/.config/ibus/bus is not root!
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:5: PyGIWarning: NM was imported without specifying a version first. Use gi.require_version('NM', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import NM, NMA
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:5: PyGIWarning: NMA was imported without specifying a version first. Use gi.require_version('NMA', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import NM, NMA
+/usr/lib/ubiquity/plugins/ubi-timezone.py:195: PyGIWarning: TimezoneMap was imported without specifying a version first. Use gi.require_version('TimezoneMap', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import TimezoneMap
+update_release_notes_label()
+/usr/lib/ubiquity/ubiquity/misc.py:668: PyGIWarning: Xkl was imported without specifying a version first. Use gi.require_version('Xkl', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Xkl, GdkX11
+update_release_notes_label()
+Could not translate page (prepare): 'NoneType' object has no attribute 'replace'
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:72: Warning: Source ID 381 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_layout_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:74: Warning: Source ID 387 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_variant_timeout_id)
+No such schema “com.canonical.indicator.session”
+No such schema “com.canonical.indicator.session”
+No such schema “com.canonical.indicator.session”
+/usr/lib/ubiquity/plugins/ubi-timezone.py:98: PyGIWarning: Soup was imported without specifying a version first. Use gi.require_version('Soup', '2.4') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, GObject, GLib, Soup
+Ecryptfs is deprecated
+Ecryptfs is deprecated

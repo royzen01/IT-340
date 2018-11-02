@@ -1,0 +1,984 @@
+Oct 29 18:04:54 roy-VirtualBox systemd-logind[450]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 29 18:04:54 roy-VirtualBox systemd-logind[450]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 29 18:04:54 roy-VirtualBox systemd-logind[450]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct 29 18:04:54 roy-VirtualBox systemd-logind[450]: New seat seat0.
+Oct 29 18:04:56 roy-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Oct 29 18:04:56 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Oct 29 18:04:56 roy-VirtualBox systemd-logind[450]: New session c1 of user gdm.
+Oct 29 18:04:57 roy-VirtualBox gnome-keyring-daemon[728]: couldn't access control socket: /run/user/121/keyring/control: No such file or directory
+Oct 29 18:05:02 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 29 18:05:23 roy-VirtualBox dbus-daemon[393]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 29 18:07:47 roy-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user roy by (uid=0)
+Oct 29 18:07:47 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user roy by (uid=0)
+Oct 29 18:07:47 roy-VirtualBox systemd-logind[450]: New session 2 of user roy.
+Oct 29 18:07:49 roy-VirtualBox gnome-keyring-daemon[2226]: The Secret Service was already initialized
+Oct 29 18:07:51 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 29 18:08:15 roy-VirtualBox dbus-daemon[393]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 29 18:09:12 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 29 18:09:12 roy-VirtualBox pkexec[3110]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 29 18:10:34 roy-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=roy rhost=  user=roy
+Oct 29 18:10:42 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+Oct 29 18:10:42 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:10:43 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:11:04 roy-VirtualBox systemd-logind[450]: System is powering down.
+Oct 29 18:25:24 roy-VirtualBox systemd-logind[505]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 29 18:25:24 roy-VirtualBox systemd-logind[505]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 29 18:25:24 roy-VirtualBox systemd-logind[505]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct 29 18:25:24 roy-VirtualBox systemd-logind[505]: New seat seat0.
+Oct 29 18:25:26 roy-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Oct 29 18:25:26 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Oct 29 18:25:26 roy-VirtualBox systemd-logind[505]: New session c1 of user gdm.
+Oct 29 18:25:29 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 29 18:25:49 roy-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user roy by (uid=0)
+Oct 29 18:25:49 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user roy by (uid=0)
+Oct 29 18:25:49 roy-VirtualBox systemd-logind[505]: New session 2 of user roy.
+Oct 29 18:25:53 roy-VirtualBox dbus-daemon[456]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 29 18:25:53 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 29 18:26:58 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 29 18:26:58 roy-VirtualBox pkexec[1685]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 29 18:31:00 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 29 18:31:00 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:31:14 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:31:46 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/sudo apt-get install wget build-essential apache2 php apache2-mod-php7.0 php-gd libgd-dev
+Oct 29 18:31:46 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:31:46 roy-VirtualBox sudo:     root : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install wget build-essential apache2 php apache2-mod-php7.0 php-gd libgd-dev
+Oct 29 18:31:46 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:31:47 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:31:47 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:32:46 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-add-repository ppa:ondrej/php
+Oct 29 18:32:46 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:33:04 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 29 18:33:04 roy-VirtualBox pkexec[2606]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 29 18:33:07 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:33:26 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/sudo apt-get install wget build-essential apache2 php apache2-mod-php7.0 php-gd libgd-dev
+Oct 29 18:33:26 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:33:26 roy-VirtualBox sudo:     root : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install wget build-essential apache2 php apache2-mod-php7.0 php-gd libgd-dev
+Oct 29 18:33:26 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:35:58 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:35:58 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:37:01 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 29 18:37:01 roy-VirtualBox pkexec[24748]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 29 18:39:01 roy-VirtualBox CRON[24774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 18:39:01 roy-VirtualBox CRON[24774]: pam_unix(cron:session): session closed for user root
+Oct 29 18:41:42 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make install
+Oct 29 18:41:42 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:41:42 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:43:25 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/sbin/useradd nagios
+Oct 29 18:43:25 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:43:25 roy-VirtualBox useradd[27607]: new group: name=nagios, GID=1001
+Oct 29 18:43:25 roy-VirtualBox useradd[27607]: new user: name=nagios, UID=1001, GID=1001, home=/home/nagios, shell=/bin/sh
+Oct 29 18:43:26 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:43:31 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/sbin/groupadd nagcmd
+Oct 29 18:43:31 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:43:31 roy-VirtualBox groupadd[27614]: group added to /etc/group: name=nagcmd, GID=1002
+Oct 29 18:43:31 roy-VirtualBox groupadd[27614]: group added to /etc/gshadow: name=nagcmd
+Oct 29 18:43:31 roy-VirtualBox groupadd[27614]: new group: name=nagcmd, GID=1002
+Oct 29 18:43:31 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:43:54 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/sbin/usermod -a -G nagcmd nagios
+Oct 29 18:43:54 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:43:54 roy-VirtualBox usermod[27620]: add 'nagios' to group 'nagcmd'
+Oct 29 18:43:54 roy-VirtualBox usermod[27620]: add 'nagios' to shadow group 'nagcmd'
+Oct 29 18:43:54 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:44:06 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/sbin/usermod -a -G nagios,nagcmd www-data
+Oct 29 18:44:06 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:44:06 roy-VirtualBox usermod[27626]: add 'www-data' to group 'nagios'
+Oct 29 18:44:06 roy-VirtualBox usermod[27626]: add 'www-data' to group 'nagcmd'
+Oct 29 18:44:06 roy-VirtualBox usermod[27626]: add 'www-data' to shadow group 'nagios'
+Oct 29 18:44:06 roy-VirtualBox usermod[27626]: add 'www-data' to shadow group 'nagcmd'
+Oct 29 18:44:06 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:44:35 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make all
+Oct 29 18:44:35 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:44:59 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:45:11 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make install
+Oct 29 18:45:11 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:45:12 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:45:23 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make install-commandmode
+Oct 29 18:45:23 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:45:23 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:45:37 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make install-init
+Oct 29 18:45:37 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:45:37 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:45:47 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make install-config
+Oct 29 18:45:47 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:45:47 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:46:09 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/install -c -m 644 sample-config/httpd.conf /etc/apache2/sites-available/nagios.conf
+Oct 29 18:46:09 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:46:09 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:46:26 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/bin/cp -R contrib/eventhandlers/ /usr/local/nagios/libexec/
+Oct 29 18:46:26 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:46:26 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:46:38 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/bin/chown -R nagios:nagios /usr/local/nagios/libexec/eventhandlers
+Oct 29 18:46:38 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:46:38 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:47:26 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make
+Oct 29 18:47:26 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:47:26 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:51:58 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make all
+Oct 29 18:51:58 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:52:22 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:53:07 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make install
+Oct 29 18:53:07 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:53:08 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:53:38 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/bin/nano -c /usr/local/nagios/etc/nagios.cfg
+Oct 29 18:53:38 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:54:04 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:54:19 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/bin/mkdir -p /usr/local/nagios/etc/servers
+Oct 29 18:54:20 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:54:20 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:54:34 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/bin/chown nagios:nagios /usr/local/nagios/etc/servers
+Oct 29 18:54:34 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:54:34 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:54:51 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/sbin/a2enmod rewrite
+Oct 29 18:54:51 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:54:51 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:55:04 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/sbin/a2enmod cgi
+Oct 29 18:55:04 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:55:04 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:55:28 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+Oct 29 18:55:28 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:55:40 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:55:57 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/bin/ln -s /etc/apache2/sites-available/nagios.conf /etc/apache2/sites-enabled/
+Oct 29 18:55:57 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:55:57 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:56:09 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Oct 29 18:56:09 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:56:09 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:56:37 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/sbin/service nagios start
+Oct 29 18:56:37 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:56:38 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:57:13 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/apt install htop
+Oct 29 18:57:13 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:57:21 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:58:00 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+Oct 29 18:58:00 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 18:58:07 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 18:59:57 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 29 18:59:57 roy-VirtualBox pkexec[3669]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 29 19:05:24 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/etc/init.d ; USER=root ; COMMAND=/usr/bin/install -c -m 644 sample-config/httpd.conf /etc/apache2/sites-available/nagios.conf
+Oct 29 19:05:24 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:05:24 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:07:29 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make all
+Oct 29 19:07:29 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:07:57 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:09:01 roy-VirtualBox CRON[6389]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 19:09:01 roy-VirtualBox CRON[6389]: pam_unix(cron:session): session closed for user root
+Oct 29 19:17:01 roy-VirtualBox CRON[6559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 19:17:01 roy-VirtualBox CRON[6559]: pam_unix(cron:session): session closed for user root
+Oct 29 19:27:42 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 29 19:28:09 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make install
+Oct 29 19:28:09 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:28:10 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:29:09 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make install-commandmode
+Oct 29 19:29:09 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:29:09 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:29:31 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make install-init
+Oct 29 19:29:31 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:29:31 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:29:38 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/make install-config
+Oct 29 19:29:38 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:29:38 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:29:57 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/usr/bin/install -c -m 644 sample-config/httpd.conf /etc/apache2/sites-available/nagios.conf
+Oct 29 19:29:57 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:29:57 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:30:20 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/bin/cp -R contrib/eventhandlers/ /usr/local/nagios/libexec/
+Oct 29 19:30:20 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:30:20 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:30:44 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-4.4.2 ; USER=root ; COMMAND=/bin/chown -R nagios:nagios /usr/local/nagios/libexec/eventhandlers
+Oct 29 19:30:44 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:30:44 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:32:41 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-plugins-2.2.1 ; USER=root ; COMMAND=/usr/bin/make
+Oct 29 19:32:41 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:33:09 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:33:17 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-plugins-2.2.1 ; USER=root ; COMMAND=/usr/bin/make install
+Oct 29 19:33:17 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:33:18 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:33:47 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-plugins-2.2.1 ; USER=root ; COMMAND=/bin/nano -c /usr/local/nagios/etc/nagios.cfg
+Oct 29 19:33:47 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:34:02 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:34:20 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-plugins-2.2.1 ; USER=root ; COMMAND=/bin/mkdir -p /usr/local/nagios/etc/servers
+Oct 29 19:34:20 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:34:20 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:34:46 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-plugins-2.2.1 ; USER=root ; COMMAND=/bin/chown nagios:nagios /usr/local/nagios/etc/servers
+Oct 29 19:34:46 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:34:46 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:35:06 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-plugins-2.2.1 ; USER=root ; COMMAND=/usr/sbin/a2enmod rewrite
+Oct 29 19:35:06 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:35:06 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:35:14 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-plugins-2.2.1 ; USER=root ; COMMAND=/usr/sbin/a2enmod cgi
+Oct 29 19:35:14 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:35:14 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:35:58 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-plugins-2.2.1 ; USER=root ; COMMAND=/usr/bin/htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+Oct 29 19:35:58 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:36:07 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:36:20 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-plugins-2.2.1 ; USER=root ; COMMAND=/bin/ln -s /etc/apache2/sites-available/nagios.conf /etc/apache2/sites-enabled/
+Oct 29 19:36:20 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:36:20 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:36:44 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/nagios-plugins-2.2.1 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Oct 29 19:36:44 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 19:36:45 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 19:39:01 roy-VirtualBox CRON[27411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 19:39:01 roy-VirtualBox CRON[27411]: pam_unix(cron:session): session closed for user root
+Oct 29 23:08:49 roy-VirtualBox systemd-logind[506]: New seat seat0.
+Oct 29 23:08:49 roy-VirtualBox systemd-logind[506]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 29 23:08:49 roy-VirtualBox systemd-logind[506]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 29 23:08:49 roy-VirtualBox systemd-logind[506]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct 29 23:08:52 roy-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Oct 29 23:08:52 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Oct 29 23:08:52 roy-VirtualBox systemd-logind[506]: New session c1 of user gdm.
+Oct 29 23:08:56 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.32 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 29 23:09:01 roy-VirtualBox CRON[1111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 23:09:01 roy-VirtualBox CRON[1111]: pam_unix(cron:session): session closed for user root
+Oct 29 23:09:19 roy-VirtualBox dbus-daemon[465]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 29 23:09:44 roy-VirtualBox gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=roy
+Oct 29 23:09:49 roy-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user roy by (uid=0)
+Oct 29 23:09:49 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user roy by (uid=0)
+Oct 29 23:09:49 roy-VirtualBox systemd-logind[506]: New session 3 of user roy.
+Oct 29 23:09:53 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 29 23:10:16 roy-VirtualBox dbus-daemon[465]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 29 23:10:33 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 29 23:10:33 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:10:44 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:10:44 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/install apache2
+Oct 29 23:10:44 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:10:44 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:10:57 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 29 23:10:57 roy-VirtualBox pkexec[2018]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 29 23:11:12 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/sbin/ufw allow OpenSSH
+Oct 29 23:11:12 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:11:12 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:12:00 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/sbin/ufw allow OpenSSH
+Oct 29 23:12:00 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:12:00 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:12:15 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/sbin/ufw allow openSSH
+Oct 29 23:12:15 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:12:15 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:13:14 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/sbin/ufw allow openSSH
+Oct 29 23:13:14 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:13:14 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:14:03 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/sbin/ufw allow OpenSSH
+Oct 29 23:14:03 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:14:03 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:14:52 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install ssh
+Oct 29 23:14:52 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:15:02 roy-VirtualBox useradd[3233]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Oct 29 23:15:02 roy-VirtualBox usermod[3239]: change user 'sshd' password
+Oct 29 23:15:02 roy-VirtualBox chage[3244]: changed password expiry for sshd
+Oct 29 23:15:03 roy-VirtualBox sshd[3315]: Server listening on 0.0.0.0 port 22.
+Oct 29 23:15:03 roy-VirtualBox sshd[3315]: Server listening on :: port 22.
+Oct 29 23:15:06 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:15:21 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/sbin/ufw allow OpenSSH
+Oct 29 23:15:21 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:15:22 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:15:40 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/sbin/ufw allow in Apache Full
+Oct 29 23:15:40 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:15:41 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:16:01 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Oct 29 23:16:01 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:16:02 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:16:21 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/sbin/ufw status
+Oct 29 23:16:21 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:16:21 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:16:57 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 29 23:16:57 roy-VirtualBox pkexec[3613]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 29 23:16:59 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/sbin/service apache2 status
+Oct 29 23:16:59 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:17:01 roy-VirtualBox CRON[3625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 23:17:01 roy-VirtualBox CRON[3625]: pam_unix(cron:session): session closed for user root
+Oct 29 23:17:21 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:20:40 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/nano /var/www/html/index.html
+Oct 29 23:20:40 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:20:57 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:20:59 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/nano /var/www/html/index.html
+Oct 29 23:20:59 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:21:18 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:21:38 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/nano /var/www/html/index.html
+Oct 29 23:21:38 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:22:59 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:26:55 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 29 23:26:55 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:27:00 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:27:10 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 29 23:27:10 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:27:14 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:27:14 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt install mysql-server
+Oct 29 23:27:14 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:27:25 roy-VirtualBox groupadd[5320]: group added to /etc/group: name=mysql, GID=127
+Oct 29 23:27:25 roy-VirtualBox groupadd[5320]: group added to /etc/gshadow: name=mysql
+Oct 29 23:27:25 roy-VirtualBox groupadd[5320]: new group: name=mysql, GID=127
+Oct 29 23:27:25 roy-VirtualBox useradd[5326]: new user: name=mysql, UID=123, GID=127, home=/nonexistent, shell=/bin/false
+Oct 29 23:27:25 roy-VirtualBox chage[5332]: changed password expiry for mysql
+Oct 29 23:27:25 roy-VirtualBox chfn[5335]: changed user 'mysql' information
+Oct 29 23:27:46 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:27:55 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/service mysql status
+Oct 29 23:27:55 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:28:04 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:28:18 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/mysql_secure_installation
+Oct 29 23:28:18 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:28:56 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 29 23:28:56 roy-VirtualBox pkexec[7029]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 29 23:31:25 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:31:52 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/mysqladmin -p -u root version
+Oct 29 23:31:52 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:31:55 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:32:42 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 29 23:32:42 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:32:47 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:32:47 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt install php libapache2-mod-php php-mysql
+Oct 29 23:32:47 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:32:55 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:34:02 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/nano info.php
+Oct 29 23:34:02 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:34:52 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:34:56 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 29 23:34:56 roy-VirtualBox pkexec[8158]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 29 23:36:44 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/rm info.php
+Oct 29 23:36:44 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:36:44 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:39:01 roy-VirtualBox CRON[8180]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 23:39:01 roy-VirtualBox CRON[8180]: pam_unix(cron:session): session closed for user root
+Oct 29 23:43:25 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 29 23:54:30 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 29 23:55:16 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 29 23:55:16 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:55:21 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:55:21 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt install phpmyadmin
+Oct 29 23:55:21 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 29 23:56:00 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 29 23:56:00 roy-VirtualBox pkexec[9865]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 29 23:56:57 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 29 23:58:56 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 29 23:58:56 roy-VirtualBox pkexec[13229]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 29 23:59:11 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/mysql -p -u root
+Oct 29 23:59:11 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 00:02:28 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 00:09:01 roy-VirtualBox CRON[13482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 00:09:01 roy-VirtualBox CRON[13482]: pam_unix(cron:session): session closed for user root
+Oct 30 00:17:01 roy-VirtualBox CRON[13706]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 00:17:01 roy-VirtualBox CRON[13706]: pam_unix(cron:session): session closed for user root
+Oct 30 00:36:09 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 30 00:39:01 roy-VirtualBox CRON[13814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 00:39:01 roy-VirtualBox CRON[13814]: pam_unix(cron:session): session closed for user root
+Oct 30 00:49:50 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 30 01:01:51 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt-get install nrpe
+Oct 30 01:01:51 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 01:01:52 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 01:09:01 roy-VirtualBox CRON[14066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 01:09:01 roy-VirtualBox CRON[14066]: pam_unix(cron:session): session closed for user root
+Oct 30 01:17:01 roy-VirtualBox CRON[14181]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 01:17:01 roy-VirtualBox CRON[14181]: pam_unix(cron:session): session closed for user root
+Oct 30 01:39:01 roy-VirtualBox CRON[14249]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 01:39:01 roy-VirtualBox CRON[14249]: pam_unix(cron:session): session closed for user root
+Oct 30 02:09:01 roy-VirtualBox CRON[14441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 02:09:01 roy-VirtualBox CRON[14441]: pam_unix(cron:session): session closed for user root
+Oct 30 02:17:01 roy-VirtualBox CRON[14548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 02:17:01 roy-VirtualBox CRON[14548]: pam_unix(cron:session): session closed for user root
+Oct 30 02:28:59 roy-VirtualBox gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=roy
+Oct 30 02:29:06 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 30 02:29:41 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 30 02:29:41 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 02:30:54 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 02:31:24 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install nagios-nrpe-server nagios-plugins
+Oct 30 02:31:24 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 02:34:33 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 02:34:42 roy-VirtualBox systemd-logind[506]: System is powering down.
+Oct 30 16:33:14 roy-VirtualBox systemd-logind[598]: New seat seat0.
+Oct 30 16:33:14 roy-VirtualBox systemd-logind[598]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 30 16:33:14 roy-VirtualBox systemd-logind[598]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 30 16:33:14 roy-VirtualBox systemd-logind[598]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct 30 16:33:15 roy-VirtualBox sshd[751]: Server listening on 0.0.0.0 port 22.
+Oct 30 16:33:15 roy-VirtualBox sshd[751]: Server listening on :: port 22.
+Oct 30 16:33:16 roy-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Oct 30 16:33:16 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Oct 30 16:33:16 roy-VirtualBox systemd-logind[598]: New session c1 of user gdm.
+Oct 30 16:33:20 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 30 16:33:28 roy-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user roy by (uid=0)
+Oct 30 16:33:28 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user roy by (uid=0)
+Oct 30 16:33:28 roy-VirtualBox systemd-logind[598]: New session 2 of user roy.
+Oct 30 16:33:31 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.71 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 30 16:33:43 roy-VirtualBox dbus-daemon[549]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 30 16:34:38 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 30 16:34:38 roy-VirtualBox pkexec[1757]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 30 16:34:48 roy-VirtualBox sshd[751]: Received SIGHUP; restarting.
+Oct 30 16:34:48 roy-VirtualBox sshd[751]: Server listening on 0.0.0.0 port 22.
+Oct 30 16:34:48 roy-VirtualBox sshd[751]: Server listening on :: port 22.
+Oct 30 16:37:37 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 30 16:37:37 roy-VirtualBox pkexec[3211]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 30 16:39:01 roy-VirtualBox CRON[19816]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 16:39:01 roy-VirtualBox CRON[19816]: pam_unix(cron:session): session closed for user root
+Oct 30 16:40:37 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 30 16:40:37 roy-VirtualBox pkexec[21754]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 30 16:42:20 roy-VirtualBox systemd-logind[598]: Power key pressed.
+Oct 30 16:42:20 roy-VirtualBox systemd-logind[598]: System is powering down.
+Oct 30 16:43:50 roy-VirtualBox systemd-logind[534]: New seat seat0.
+Oct 30 16:43:50 roy-VirtualBox systemd-logind[534]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 30 16:43:50 roy-VirtualBox systemd-logind[534]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 30 16:43:50 roy-VirtualBox systemd-logind[534]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct 30 16:43:50 roy-VirtualBox sshd[748]: Server listening on 0.0.0.0 port 22.
+Oct 30 16:43:50 roy-VirtualBox sshd[748]: Server listening on :: port 22.
+Oct 30 16:43:51 roy-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Oct 30 16:43:51 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Oct 30 16:43:51 roy-VirtualBox systemd-logind[534]: New session c1 of user gdm.
+Oct 30 16:43:55 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 30 16:44:18 roy-VirtualBox dbus-daemon[617]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 30 16:44:25 roy-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user roy by (uid=0)
+Oct 30 16:44:25 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user roy by (uid=0)
+Oct 30 16:44:25 roy-VirtualBox systemd-logind[534]: New session 2 of user roy.
+Oct 30 16:44:28 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 30 16:44:51 roy-VirtualBox dbus-daemon[617]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 30 16:45:32 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 30 16:45:32 roy-VirtualBox pkexec[1604]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 30 16:51:43 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/etc/init.d/networking restart
+Oct 30 16:51:43 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 16:51:43 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 16:52:56 roy-VirtualBox sshd[748]: Received SIGHUP; restarting.
+Oct 30 16:52:56 roy-VirtualBox sshd[748]: Server listening on 0.0.0.0 port 22.
+Oct 30 16:52:56 roy-VirtualBox sshd[748]: Server listening on :: port 22.
+Oct 30 16:52:56 roy-VirtualBox sshd[748]: Received SIGHUP; restarting.
+Oct 30 16:52:56 roy-VirtualBox sshd[748]: Server listening on 0.0.0.0 port 22.
+Oct 30 16:52:56 roy-VirtualBox sshd[748]: Server listening on :: port 22.
+Oct 30 16:54:33 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install nagios-nrpe-server nagios plugins
+Oct 30 16:54:33 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 16:54:33 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 17:03:41 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 30 17:06:35 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install nagios-nrpe-server nagios plugins
+Oct 30 17:06:35 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 17:06:36 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 17:07:52 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 30 17:07:52 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 17:08:07 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 17:08:14 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install nagios-nrpe-server nagios plugins
+Oct 30 17:08:14 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 17:08:15 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 17:08:24 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install nagios-nrpe-server nagios-plugins
+Oct 30 17:08:24 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 17:09:01 roy-VirtualBox CRON[7038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 17:09:01 roy-VirtualBox CRON[7038]: pam_unix(cron:session): session closed for user root
+Oct 30 17:09:08 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 17:09:31 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 30 17:09:31 roy-VirtualBox pkexec[7886]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 30 17:09:40 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/etc/init.d/nagios-nrpe-server restart
+Oct 30 17:09:40 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 17:09:40 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 17:17:01 roy-VirtualBox CRON[7974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 17:17:01 roy-VirtualBox CRON[7974]: pam_unix(cron:session): session closed for user root
+Oct 30 17:58:19 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 30 17:59:09 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install nagios-nrpe-server nagios
+Oct 30 17:59:09 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 17:59:10 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 17:59:26 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install nagios-nrpe-server nagios-plugins-basic
+Oct 30 17:59:26 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 17:59:31 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 18:01:28 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 30 18:01:28 roy-VirtualBox pkexec[8352]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 30 18:09:01 roy-VirtualBox CRON[8514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 18:09:01 roy-VirtualBox CRON[8514]: pam_unix(cron:session): session closed for user root
+Oct 30 18:17:01 roy-VirtualBox CRON[8609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 18:17:01 roy-VirtualBox CRON[8609]: pam_unix(cron:session): session closed for user root
+Oct 30 18:39:01 roy-VirtualBox CRON[8625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 18:39:01 roy-VirtualBox CRON[8625]: pam_unix(cron:session): session closed for user root
+Oct 30 19:09:01 roy-VirtualBox CRON[8730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 19:09:01 roy-VirtualBox CRON[8730]: pam_unix(cron:session): session closed for user root
+Oct 30 19:17:01 roy-VirtualBox CRON[8825]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 19:17:01 roy-VirtualBox CRON[8825]: pam_unix(cron:session): session closed for user root
+Oct 30 19:42:37 roy-VirtualBox CRON[8923]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 19:42:37 roy-VirtualBox CRON[8923]: pam_unix(cron:session): session closed for user root
+Oct 30 19:58:23 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 31 22:47:58 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 31 22:48:27 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 31 22:48:27 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 22:48:38 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 22:49:16 roy-VirtualBox systemd-logind[534]: System is powering down.
+Oct 31 22:52:16 roy-VirtualBox systemd-logind[545]: New seat seat0.
+Oct 31 22:52:16 roy-VirtualBox systemd-logind[545]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 31 22:52:16 roy-VirtualBox systemd-logind[545]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 31 22:52:16 roy-VirtualBox systemd-logind[545]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct 31 22:52:18 roy-VirtualBox sshd[723]: Server listening on 0.0.0.0 port 22.
+Oct 31 22:52:18 roy-VirtualBox sshd[723]: Server listening on :: port 22.
+Oct 31 22:52:19 roy-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Oct 31 22:52:19 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Oct 31 22:52:19 roy-VirtualBox systemd-logind[545]: New session c1 of user gdm.
+Oct 31 22:52:19 roy-VirtualBox sshd[723]: Received SIGHUP; restarting.
+Oct 31 22:52:19 roy-VirtualBox sshd[723]: Server listening on 0.0.0.0 port 22.
+Oct 31 22:52:19 roy-VirtualBox sshd[723]: Server listening on :: port 22.
+Oct 31 22:52:19 roy-VirtualBox sshd[723]: Received SIGHUP; restarting.
+Oct 31 22:52:19 roy-VirtualBox sshd[723]: Server listening on 0.0.0.0 port 22.
+Oct 31 22:52:19 roy-VirtualBox sshd[723]: Server listening on :: port 22.
+Oct 31 22:52:23 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 31 22:52:46 roy-VirtualBox dbus-daemon[557]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 31 22:52:50 roy-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user roy by (uid=0)
+Oct 31 22:52:50 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user roy by (uid=0)
+Oct 31 22:52:50 roy-VirtualBox systemd-logind[545]: New session 2 of user roy.
+Oct 31 22:52:53 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.74 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 31 22:53:16 roy-VirtualBox dbus-daemon[557]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 31 22:53:59 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 22:53:59 roy-VirtualBox pkexec[1666]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 23:02:45 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2 ; USER=root ; COMMAND=/usr/bin/make install
+Oct 31 23:02:45 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:02:45 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:06:25 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=./check_mysql_health -H 10.0.128 --user pmaroy --password botanic32 w0rd --mode uptime
+Oct 31 23:06:25 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:06:25 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:07:44 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=/usr/bin/apt install yum
+Oct 31 23:07:44 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:07:56 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:08:29 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=./check_mysql_health -H 10.0.128 --user pmaroy --password botanic32 w0rd --mode uptime
+Oct 31 23:08:29 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:08:29 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:08:58 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 23:08:58 roy-VirtualBox pkexec[4088]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 23:09:01 roy-VirtualBox CRON[4102]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 23:09:01 roy-VirtualBox CRON[4102]: pam_unix(cron:session): session closed for user root
+Oct 31 23:09:33 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=./check_mysql_health -H 10.0.2.15 --user pmaroy --password botanic32 w0rd --mode uptime
+Oct 31 23:09:33 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:09:33 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:11:10 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=/usr/bin/apt-get install libdbi-perl
+Oct 31 23:11:10 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:11:17 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:11:23 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=./check_mysql_health -H 10.0.2.15 --user pmaroy --password botanic32 w0rd --mode uptime
+Oct 31 23:11:23 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:11:23 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:11:30 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=./check_mysql_health -H 10.0.128 --user pmaroy --password botanic32 w0rd --mode uptime
+Oct 31 23:11:30 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:11:30 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:11:57 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 23:11:57 roy-VirtualBox pkexec[5339]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 23:15:54 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=/usr/bin/yum install perl-DBD-MySQL
+Oct 31 23:15:54 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:15:55 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:17:01 roy-VirtualBox CRON[5385]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 23:17:01 roy-VirtualBox CRON[5385]: pam_unix(cron:session): session closed for user root
+Oct 31 23:18:10 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=./check_mysql_health -H 10.0.128 --user pmaroy --password botanic32 w0rd --mode uptime
+Oct 31 23:18:10 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:18:10 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:18:29 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=/usr/bin/yum install perl-DBD-MySQL
+Oct 31 23:18:29 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:18:30 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:18:56 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=/usr/bin/apt install yum-utils
+Oct 31 23:18:56 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:19:04 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:19:22 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=/usr/bin/yum-config-manager --enable
+Oct 31 23:19:22 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:19:22 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:19:37 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=/usr/bin/yum install perl-DBD-MySQL
+Oct 31 23:19:37 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:19:37 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:19:59 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=/usr/bin/yum-config-manager --enable
+Oct 31 23:19:59 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:19:59 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:20:26 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=/usr/bin/yum install perl-DBD-MySQL
+Oct 31 23:20:26 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:20:26 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:20:57 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 23:20:58 roy-VirtualBox pkexec[6481]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 23:21:43 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=/usr/bin/yum-config-manager --enable *
+Oct 31 23:21:43 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:21:43 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:21:56 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads/check_mysql_health-2.2.2/plugins-scripts ; USER=root ; COMMAND=/usr/bin/yum install perl-DBD-MySQL
+Oct 31 23:21:56 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:21:56 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:35:18 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=root ; COMMAND=/usr/bin/apt install vim
+Oct 31 23:35:18 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:35:29 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:35:58 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 23:35:58 roy-VirtualBox pkexec[7357]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 23:39:01 roy-VirtualBox CRON[7368]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 23:39:01 roy-VirtualBox CRON[7368]: pam_unix(cron:session): session closed for user root
+Oct 31 23:45:19 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 31 23:50:02 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=root ; COMMAND=/bin/systemctl status mariadb.service
+Oct 31 23:50:02 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:50:02 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:50:40 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=root ; COMMAND=/usr/sbin/service mysql status
+Oct 31 23:50:40 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:51:08 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:51:42 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=root ; COMMAND=/usr/bin/yum install perl-DBI perl-DBD-MySQL perl-GD
+Oct 31 23:51:42 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:51:42 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:52:34 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=root ; COMMAND=/usr/bin/apt-get install libstdc++.i686
+Oct 31 23:52:34 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:52:35 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:54:16 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=root ; COMMAND=/usr/bin/apt-get install perl-DBI perl-DBD-MySQL perl-GD
+Oct 31 23:54:16 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:54:17 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:55:26 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=root ; COMMAND=/usr/bin/yum install perl* asciidoc
+Oct 31 23:55:26 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:55:26 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:56:18 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=root ; COMMAND=/usr/bin/apt install perl* asciido
+Oct 31 23:56:18 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:56:19 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 23:56:31 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=root ; COMMAND=/usr/bin/apt-get install perl* asciido
+Oct 31 23:56:31 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 23:56:32 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 00:00:49 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=root ; COMMAND=/usr/sbin/service mysql status
+Nov  1 00:00:49 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 00:01:05 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 00:02:05 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=nagios ; COMMAND=/bin/bash -c /usr/lib/nagios/plugins/check_mysql -H 10.0.2.15 -u pmaroy -p botanic32
+Nov  1 00:02:05 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user nagios by (uid=0)
+Nov  1 00:02:05 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user nagios
+Nov  1 00:04:04 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=nagios ; COMMAND=/bin/bash -c /usr/lib/nagios/plugins/check_mysql -H 10.0.2.15 -u pmaroy -p botanic32
+Nov  1 00:04:04 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user nagios by (uid=0)
+Nov  1 00:04:04 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user nagios
+Nov  1 00:05:09 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=nagios ; COMMAND=/bin/bash -c /usr/lib/nagios/plugins/check_mysql -H 10.0.2.15 -u pmaroy -p botanic32
+Nov  1 00:05:09 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user nagios by (uid=0)
+Nov  1 00:05:09 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user nagios
+Nov  1 00:05:40 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=nagios ; COMMAND=/bin/bash -c /usr/lib/nagios/plugins/check_mysql -H 192.168.86.50 -u pmaroy -p botanic32
+Nov  1 00:05:40 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user nagios by (uid=0)
+Nov  1 00:05:41 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user nagios
+Nov  1 00:05:58 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/nagios/etc/objects ; USER=nagios ; COMMAND=/bin/bash -c /usr/lib/nagios/plugins/check_mysql -H 192.168.0.2 -u pmaroy -p botanic32
+Nov  1 00:05:58 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user nagios by (uid=0)
+Nov  1 00:06:02 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user nagios
+Nov  1 00:08:59 roy-VirtualBox sshd[723]: Received SIGHUP; restarting.
+Nov  1 00:08:59 roy-VirtualBox sshd[723]: Server listening on 0.0.0.0 port 22.
+Nov  1 00:08:59 roy-VirtualBox sshd[723]: Server listening on :: port 22.
+Nov  1 00:08:59 roy-VirtualBox sshd[723]: Received SIGHUP; restarting.
+Nov  1 00:08:59 roy-VirtualBox sshd[723]: Server listening on 0.0.0.0 port 22.
+Nov  1 00:08:59 roy-VirtualBox sshd[723]: Server listening on :: port 22.
+Nov  1 00:09:01 roy-VirtualBox CRON[8195]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 00:09:01 roy-VirtualBox CRON[8195]: pam_unix(cron:session): session closed for user root
+Nov  1 00:17:01 roy-VirtualBox CRON[8335]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 00:17:01 roy-VirtualBox CRON[8335]: pam_unix(cron:session): session closed for user root
+Nov  1 00:17:59 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/bin/su
+Nov  1 00:17:59 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 00:17:59 roy-VirtualBox su[8356]: Successful su for root by root
+Nov  1 00:17:59 roy-VirtualBox su[8356]: + /dev/pts/0 root:root
+Nov  1 00:17:59 roy-VirtualBox su[8356]: pam_unix(su:session): session opened for user root by (uid=0)
+Nov  1 00:17:59 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov  1 00:17:59 roy-VirtualBox systemd-logind[545]: New session 3 of user root.
+Nov  1 00:23:58 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 00:23:58 roy-VirtualBox pkexec[18334]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 00:34:32 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 00:34:59 roy-VirtualBox sudo:     root : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov  1 00:34:59 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 00:35:04 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 00:35:58 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 00:35:58 roy-VirtualBox pkexec[18757]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 00:39:01 roy-VirtualBox CRON[18769]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 00:39:01 roy-VirtualBox CRON[18769]: pam_unix(cron:session): session closed for user root
+Nov  1 00:41:58 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 00:41:58 roy-VirtualBox pkexec[18985]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 01:09:01 roy-VirtualBox CRON[19101]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 01:09:01 roy-VirtualBox CRON[19101]: pam_unix(cron:session): session closed for user root
+Nov  1 01:13:38 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 01:14:02 roy-VirtualBox su[8356]: pam_unix(su:session): session closed for user root
+Nov  1 01:14:03 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 01:14:03 roy-VirtualBox systemd-logind[545]: Removed session 3.
+Nov  1 01:14:03 roy-VirtualBox systemd: pam_unix(systemd-user:session): session closed for user root
+Nov  1 01:14:16 roy-VirtualBox systemd-logind[545]: System is powering down.
+Nov  1 01:14:16 roy-VirtualBox sshd[723]: Received signal 15; terminating.
+Nov  1 10:59:29 roy-VirtualBox systemd-logind[534]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  1 10:59:29 roy-VirtualBox systemd-logind[534]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  1 10:59:29 roy-VirtualBox systemd-logind[534]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  1 10:59:29 roy-VirtualBox systemd-logind[534]: New seat seat0.
+Nov  1 10:59:31 roy-VirtualBox sshd[806]: Server listening on 0.0.0.0 port 22.
+Nov  1 10:59:31 roy-VirtualBox sshd[806]: Server listening on :: port 22.
+Nov  1 10:59:32 roy-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Nov  1 10:59:32 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Nov  1 10:59:32 roy-VirtualBox systemd-logind[534]: New session c1 of user gdm.
+Nov  1 10:59:32 roy-VirtualBox sshd[806]: Received SIGHUP; restarting.
+Nov  1 10:59:32 roy-VirtualBox sshd[806]: Server listening on 0.0.0.0 port 22.
+Nov  1 10:59:32 roy-VirtualBox sshd[806]: Server listening on :: port 22.
+Nov  1 10:59:33 roy-VirtualBox sshd[806]: Received SIGHUP; restarting.
+Nov  1 10:59:33 roy-VirtualBox sshd[806]: Server listening on 0.0.0.0 port 22.
+Nov  1 10:59:33 roy-VirtualBox sshd[806]: Server listening on :: port 22.
+Nov  1 10:59:36 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 10:59:45 roy-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user roy by (uid=0)
+Nov  1 10:59:45 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user roy by (uid=0)
+Nov  1 10:59:45 roy-VirtualBox systemd-logind[534]: New session 2 of user roy.
+Nov  1 10:59:48 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.74 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 10:59:59 roy-VirtualBox dbus-daemon[542]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov  1 11:00:53 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 11:00:53 roy-VirtualBox pkexec[1699]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 11:05:35 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/apt-get install -y httpd php gcc glibc glibc-common gd gd-devel make net-snmp perl-rrd xinetd openssl-devel package perl-GD* ntp perl-rrd*
+Nov  1 11:05:35 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:05:36 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:08:17 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/apt install libc6
+Nov  1 11:08:17 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:08:18 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:09:01 roy-VirtualBox CRON[2221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 11:09:01 roy-VirtualBox CRON[2221]: pam_unix(cron:session): session closed for user root
+Nov  1 11:09:20 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/apt install xinted*
+Nov  1 11:09:20 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:09:21 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:09:35 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/apt install xinetd*
+Nov  1 11:09:35 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:09:43 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:09:52 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 11:09:52 roy-VirtualBox pkexec[2777]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 11:10:16 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/make install-xinetd
+Nov  1 11:10:16 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:10:16 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:12:50 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/vim /etc/services
+Nov  1 11:12:50 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:13:12 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:13:27 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/sbin/service xinetd restart
+Nov  1 11:13:27 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:13:27 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:14:02 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/bin/netstat -at
+Nov  1 11:14:02 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:14:02 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:14:34 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/local/nagios/libexec/check_nrpe -H localhost
+Nov  1 11:14:34 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:14:34 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:17:01 roy-VirtualBox CRON[2862]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 11:17:01 roy-VirtualBox CRON[2862]: pam_unix(cron:session): session closed for user root
+Nov  1 11:17:30 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/vim /etc/nagios/nrpe.cfg
+Nov  1 11:17:30 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:18:08 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:18:15 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/local/nagios/libexec/check_nrpe -H localhost
+Nov  1 11:18:15 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:18:15 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:22:29 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov  1 11:22:29 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:22:33 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:22:52 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/apt-get install nagios-nrpe-server nagios-plugins
+Nov  1 11:22:52 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:22:53 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:24:52 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 11:24:52 roy-VirtualBox pkexec[3244]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 11:39:01 roy-VirtualBox CRON[3393]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 11:39:01 roy-VirtualBox CRON[3393]: pam_unix(cron:session): session closed for user root
+Nov  1 12:03:40 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 12:04:45 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/apt-get install nagios-mrpe-server nagios-plugins
+Nov  1 12:04:45 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 12:04:46 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 12:04:54 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/apt-get install nagios-nrpe-server nagios-plugins
+Nov  1 12:04:54 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 12:04:55 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 12:05:17 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/etc/init.d/nagios-nrpe-server restart
+Nov  1 12:05:17 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 12:05:17 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 12:07:47 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/etc/init.d/nagios-nrpe-server stop
+Nov  1 12:07:47 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 12:07:47 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 12:07:59 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/etc/init.d/nagios-nrpe-server start
+Nov  1 12:07:59 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 12:07:59 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 12:08:05 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/etc/init.d/nagios-nrpe-server restart
+Nov  1 12:08:05 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 12:08:05 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 12:09:01 roy-VirtualBox CRON[3786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 12:09:01 roy-VirtualBox CRON[3786]: pam_unix(cron:session): session closed for user root
+Nov  1 12:12:12 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=root ; COMMAND=/usr/bin/mysql -u root -p
+Nov  1 12:12:12 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 12:13:49 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 12:15:07 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/usr/local/src/nrpe/nrpe-2.15 ; USER=nagios ; COMMAND=/bin/bash -c /usr/lib/nagios/plugins/check_mysql -H 192.168.86.36 -u nagios -p 123456
+Nov  1 12:15:07 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user nagios by (uid=0)
+Nov  1 12:15:07 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user nagios
+Nov  1 12:17:01 roy-VirtualBox CRON[3838]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 12:17:01 roy-VirtualBox CRON[3838]: pam_unix(cron:session): session closed for user root
+Nov  1 12:18:52 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 12:18:52 roy-VirtualBox pkexec[3852]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 12:26:43 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 12:29:57 roy-VirtualBox systemd-logind[534]: System is rebooting.
+Nov  1 12:30:19 roy-VirtualBox systemd-logind[579]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  1 12:30:19 roy-VirtualBox systemd-logind[579]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  1 12:30:19 roy-VirtualBox systemd-logind[579]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  1 12:30:19 roy-VirtualBox systemd-logind[579]: New seat seat0.
+Nov  1 12:30:20 roy-VirtualBox sshd[702]: Server listening on 0.0.0.0 port 22.
+Nov  1 12:30:20 roy-VirtualBox sshd[702]: Server listening on :: port 22.
+Nov  1 12:30:21 roy-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Nov  1 12:30:21 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Nov  1 12:30:21 roy-VirtualBox systemd-logind[579]: New session c1 of user gdm.
+Nov  1 12:30:24 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 12:30:32 roy-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user roy by (uid=0)
+Nov  1 12:30:32 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user roy by (uid=0)
+Nov  1 12:30:32 roy-VirtualBox systemd-logind[579]: New session 2 of user roy.
+Nov  1 12:30:35 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 12:30:47 roy-VirtualBox dbus-daemon[542]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov  1 12:31:39 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 12:31:39 roy-VirtualBox pkexec[1830]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 12:32:17 roy-VirtualBox sshd[702]: Received SIGHUP; restarting.
+Nov  1 12:32:17 roy-VirtualBox sshd[702]: Server listening on 0.0.0.0 port 22.
+Nov  1 12:32:17 roy-VirtualBox sshd[702]: Server listening on :: port 22.
+Nov  1 12:32:17 roy-VirtualBox sshd[702]: Received SIGHUP; restarting.
+Nov  1 12:32:17 roy-VirtualBox sshd[702]: Server listening on 0.0.0.0 port 22.
+Nov  1 12:32:17 roy-VirtualBox sshd[702]: Server listening on :: port 22.
+Nov  1 13:39:01 roy-VirtualBox CRON[2391]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 13:39:01 roy-VirtualBox CRON[2391]: pam_unix(cron:session): session closed for user root
+Nov  1 13:39:55 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/bin/chmod 777 -R /var/www/html/engine
+Nov  1 13:39:55 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:39:55 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:43:36 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads ; USER=root ; COMMAND=/usr/bin/unzip ExpressionEngine4.3.6.zip -d /var/www/html/engine
+Nov  1 13:43:36 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:43:37 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:44:38 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads ; USER=root ; COMMAND=/bin/chown -R www-data /var/www/html/engine
+Nov  1 13:44:38 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:44:38 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:44:53 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads ; USER=root ; COMMAND=/bin/chmod 777 -R /var/www/html/engine
+Nov  1 13:44:53 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:44:53 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:45:21 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads ; USER=root ; COMMAND=/usr/bin/mysql -u root -p
+Nov  1 13:45:21 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:48:12 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 14:09:01 roy-VirtualBox CRON[2710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 14:09:01 roy-VirtualBox CRON[2710]: pam_unix(cron:session): session closed for user root
+Nov  1 14:17:01 roy-VirtualBox CRON[2815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 14:17:01 roy-VirtualBox CRON[2815]: pam_unix(cron:session): session closed for user root
+Nov  1 14:18:10 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 14:36:38 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 14:39:01 roy-VirtualBox CRON[2920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 14:39:01 roy-VirtualBox CRON[2920]: pam_unix(cron:session): session closed for user root
+Nov  1 14:52:12 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/Downloads ; USER=root ; COMMAND=/usr/bin/mysql -u root -p
+Nov  1 14:52:12 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:09:01 roy-VirtualBox CRON[3138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 15:09:01 roy-VirtualBox CRON[3138]: pam_unix(cron:session): session closed for user root
+Nov  1 15:17:01 roy-VirtualBox CRON[3274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 15:17:01 roy-VirtualBox CRON[3274]: pam_unix(cron:session): session closed for user root
+Nov  1 15:17:54 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:39:01 roy-VirtualBox CRON[3671]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 15:39:01 roy-VirtualBox CRON[3671]: pam_unix(cron:session): session closed for user root
+Nov  1 15:44:52 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 16:09:01 roy-VirtualBox CRON[4314]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 16:09:01 roy-VirtualBox CRON[4314]: pam_unix(cron:session): session closed for user root
+Nov  1 16:17:01 roy-VirtualBox CRON[4442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 16:17:01 roy-VirtualBox CRON[4442]: pam_unix(cron:session): session closed for user root
+Nov  1 16:22:32 roy-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 16:28:17 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt install curl
+Nov  1 16:28:17 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:28:29 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:32:38 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 16:32:38 roy-VirtualBox pkexec[7273]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 16:37:00 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/usr/bin/make install-plugin
+Nov  1 16:37:00 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:37:00 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:37:20 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/nano /usr/local/nagios/etc/nagios.cfg
+Nov  1 16:37:20 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:39:01 roy-VirtualBox CRON[7320]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 16:39:01 roy-VirtualBox CRON[7320]: pam_unix(cron:session): session closed for user root
+Nov  1 16:39:09 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:39:27 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/mkdir /usr/local/nagios/etc/servers
+Nov  1 16:39:27 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:39:27 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:40:11 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/nano /usr/local/nagios/etc/objects/contacts.cfg
+Nov  1 16:40:11 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:42:29 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:43:07 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/nano /usr/local/nagios/etc/objects/commands.cfg
+Nov  1 16:43:07 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:44:34 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:46:54 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/usr/sbin/a2enmod rewrite
+Nov  1 16:46:54 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:46:54 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:47:00 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/usr/sbin/a2enmod cgi
+Nov  1 16:47:00 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:47:00 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:48:49 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/usr/bin/htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+Nov  1 16:48:49 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:48:55 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:49:19 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/ln -s /etc/apache2/sites-available/nagios.conf /etc/apache2/sites-enabled/
+Nov  1 16:49:19 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:49:19 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:49:40 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/nagios.conf
+Nov  1 16:49:40 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:53:21 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/nagios.conf
+Nov  1 16:53:21 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:53:32 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:53:35 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/nagios.conf
+Nov  1 16:53:35 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:53:59 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:54:27 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 16:54:27 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:54:28 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:55:01 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:55:07 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/nagios.conf
+Nov  1 16:55:07 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:55:15 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:55:44 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 16:55:44 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:55:44 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:59:03 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/nagios.conf
+Nov  1 16:59:03 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:02:31 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:02:37 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 17:02:37 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:02:37 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:03:26 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/systemctl stop apache2
+Nov  1 17:03:26 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:03:26 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:03:31 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 17:03:31 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:03:31 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:06:19 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/systemctl stop apache2
+Nov  1 17:06:19 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:06:19 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:06:24 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 17:06:24 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:06:24 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:09:01 roy-VirtualBox CRON[7582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 17:09:01 roy-VirtualBox CRON[7582]: pam_unix(cron:session): session closed for user root
+Nov  1 17:17:01 roy-VirtualBox CRON[7675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 17:17:01 roy-VirtualBox CRON[7675]: pam_unix(cron:session): session closed for user root
+Nov  1 17:17:41 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 17:17:41 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:17:41 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:19:01 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/nrpe-3.2.1 ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 17:19:01 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:19:01 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:20:39 roy-VirtualBox systemd-logind[579]: System is powering down.
+Nov  1 17:20:40 roy-VirtualBox sshd[702]: Received signal 15; terminating.
+Nov  1 17:20:40 roy-VirtualBox systemd: pam_unix(systemd-user:session): session closed for user roy
+Nov  1 17:25:58 roy-VirtualBox systemd-logind[554]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  1 17:25:58 roy-VirtualBox systemd-logind[554]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  1 17:25:58 roy-VirtualBox systemd-logind[554]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  1 17:25:58 roy-VirtualBox systemd-logind[554]: New seat seat0.
+Nov  1 17:26:00 roy-VirtualBox sshd[714]: Server listening on 0.0.0.0 port 22.
+Nov  1 17:26:00 roy-VirtualBox sshd[714]: Server listening on :: port 22.
+Nov  1 17:26:01 roy-VirtualBox sshd[714]: Received SIGHUP; restarting.
+Nov  1 17:26:01 roy-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Nov  1 17:26:01 roy-VirtualBox sshd[714]: Server listening on 0.0.0.0 port 22.
+Nov  1 17:26:01 roy-VirtualBox sshd[714]: Server listening on :: port 22.
+Nov  1 17:26:02 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Nov  1 17:26:02 roy-VirtualBox systemd-logind[554]: New session c1 of user gdm.
+Nov  1 17:26:02 roy-VirtualBox sshd[714]: Received SIGHUP; restarting.
+Nov  1 17:26:02 roy-VirtualBox sshd[714]: Server listening on 0.0.0.0 port 22.
+Nov  1 17:26:02 roy-VirtualBox sshd[714]: Server listening on :: port 22.
+Nov  1 17:26:05 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 17:26:24 roy-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user roy by (uid=0)
+Nov  1 17:26:24 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user roy by (uid=0)
+Nov  1 17:26:24 roy-VirtualBox systemd-logind[554]: New session 2 of user roy.
+Nov  1 17:26:29 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.74 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 17:26:29 roy-VirtualBox dbus-daemon[568]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov  1 17:27:34 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 17:27:34 roy-VirtualBox pkexec[1676]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 17:28:24 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/sbin/service apache2 status
+Nov  1 17:28:24 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:28:38 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+                                                                                                                                                                                                                                                                                                                                 Nov  1 18:44:14 roy-VirtualBox systemd-logind[566]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  1 18:44:14 roy-VirtualBox systemd-logind[566]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  1 18:44:14 roy-VirtualBox systemd-logind[566]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  1 18:44:14 roy-VirtualBox systemd-logind[566]: New seat seat0.
+Nov  1 18:44:15 roy-VirtualBox sshd[734]: Server listening on 0.0.0.0 port 22.
+Nov  1 18:44:15 roy-VirtualBox sshd[734]: Server listening on :: port 22.
+Nov  1 18:44:16 roy-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Nov  1 18:44:16 roy-VirtualBox systemd-logind[566]: New session c1 of user gdm.
+Nov  1 18:44:16 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Nov  1 18:44:17 roy-VirtualBox sshd[734]: Received SIGHUP; restarting.
+Nov  1 18:44:17 roy-VirtualBox sshd[734]: Server listening on 0.0.0.0 port 22.
+Nov  1 18:44:17 roy-VirtualBox sshd[734]: Server listening on :: port 22.
+Nov  1 18:44:17 roy-VirtualBox sshd[734]: Received SIGHUP; restarting.
+Nov  1 18:44:17 roy-VirtualBox sshd[734]: Server listening on 0.0.0.0 port 22.
+Nov  1 18:44:17 roy-VirtualBox sshd[734]: Server listening on :: port 22.
+Nov  1 18:44:23 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.32 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 18:44:35 roy-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user roy by (uid=0)
+Nov  1 18:44:35 roy-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user roy by (uid=0)
+Nov  1 18:44:35 roy-VirtualBox systemd-logind[566]: New session 2 of user roy.
+Nov  1 18:44:39 roy-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 18:44:45 roy-VirtualBox dbus-daemon[512]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov  1 18:46:11 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 18:46:11 roy-VirtualBox pkexec[1949]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 19:03:11 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install git
+Nov  1 19:03:11 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 19:03:28 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 19:03:44 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 19:03:44 roy-VirtualBox pkexec[3869]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 19:03:57 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy ; USER=root ; COMMAND=/usr/bin/apt-get install gitk
+Nov  1 19:03:57 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 19:04:51 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 19:06:44 roy-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 19:06:44 roy-VirtualBox pkexec[4596]: roy: Executing command [USER=root] [TTY=unknown] [CWD=/home/roy] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 19:09:01 roy-VirtualBox CRON[4613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 19:09:01 roy-VirtualBox CRON[4613]: pam_unix(cron:session): session closed for user root
+Nov  1 19:17:01 roy-VirtualBox CRON[4713]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 19:17:01 roy-VirtualBox CRON[4713]: pam_unix(cron:session): session closed for user root
+Nov  1 20:30:29 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git add .
+Nov  1 20:30:29 roy-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 20:30:29 roy-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 20:38:47 roy-VirtualBox sudo:      roy : TTY=pts/0 ; PWD=/home/roy/git/IT340 ; USER=root ; COMMAND=/bin/cp -a /var/log ./

@@ -1,0 +1,133 @@
+Oct 31 22:57:17 roy-VirtualBox rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="544" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Oct 31 22:57:20 roy-VirtualBox anacron[546]: Job `cron.daily' terminated
+Oct 31 22:57:20 roy-VirtualBox anacron[546]: Normal exit (1 job run)
+Oct 31 23:00:45 roy-VirtualBox dbus-daemon[1128]: [session uid=1000 pid=1128] Activating service name='org.gnome.Nautilus' requested by ':1.12' (uid=1000 pid=1253 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct 31 23:00:45 roy-VirtualBox dbus-daemon[1128]: [session uid=1000 pid=1128] Successfully activated service 'org.gnome.Nautilus'
+Oct 31 23:00:46 roy-VirtualBox dbus-daemon[557]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.110' (uid=1000 pid=2215 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Oct 31 23:00:46 roy-VirtualBox systemd[1]: Starting Hostname Service...
+Oct 31 23:00:46 roy-VirtualBox dbus-daemon[557]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Oct 31 23:00:46 roy-VirtualBox systemd[1]: Started Hostname Service.
+Oct 31 23:00:46 roy-VirtualBox nautilus[2215]: Called "net usershare info" but it failed: 'net usershare' returned error 255: mkdir failed on directory /var/run/samba/msg.lock: Permission denied#012net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory#012Please ask your system administrator to enable user sharing.
+Oct 31 23:04:45 roy-VirtualBox systemd[1]: Started Run anacron jobs.
+Oct 31 23:04:45 roy-VirtualBox anacron[2770]: Anacron 2.3 started on 2018-10-31
+Oct 31 23:04:45 roy-VirtualBox anacron[2770]: Normal exit (0 jobs run)
+Oct 31 23:04:53 roy-VirtualBox pulseaudio[1275]: [alsa-sink-Intel ICH] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Oct 31 23:04:53 roy-VirtualBox pulseaudio[1275]: [alsa-sink-Intel ICH] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Oct 31 23:04:53 roy-VirtualBox pulseaudio[1275]: [alsa-sink-Intel ICH] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Oct 31 23:07:18 roy-VirtualBox systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 31 23:07:18 roy-VirtualBox systemd[1]: Started Cleanup of Temporary Directories.
+Oct 31 23:07:46 roy-VirtualBox systemd-resolved[291]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Oct 31 23:09:01 roy-VirtualBox CRON[4103]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 31 23:09:45 roy-VirtualBox systemd[1]: Starting Clean php session files...
+Oct 31 23:09:45 roy-VirtualBox systemd[1]: Started Clean php session files.
+Oct 31 23:17:01 roy-VirtualBox CRON[5386]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 31 23:24:51 roy-VirtualBox systemd[1]: Starting Message of the Day...
+Oct 31 23:24:51 roy-VirtualBox systemd[1]: Started Message of the Day.
+Oct 31 23:35:19 roy-VirtualBox systemd-resolved[291]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Oct 31 23:39:01 roy-VirtualBox CRON[7369]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 31 23:39:45 roy-VirtualBox systemd[1]: Starting Clean php session files...
+Oct 31 23:39:45 roy-VirtualBox systemd[1]: Started Clean php session files.
+Oct 31 23:42:39 roy-VirtualBox gnome-software[1464]: no app for changed ubuntu-dock@ubuntu.com
+Oct 31 23:42:39 roy-VirtualBox gnome-shell[1253]: Object .Gjs_AppIndicatorIconActor__1 (0x5615a3638510), has been already finalized. Impossible to set any property to it.
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: == Stack trace for context 0x56159ed24320 ==
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #0 0x7ffd22e7c430 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fbb66db5de0 @ 87)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #1 0x56159f133768 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fbb567bf098 @ 58)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #2 0x7ffd22e7d790 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fbb66db5de0 @ 71)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #3 0x7ffd22e7d850 b   self-hosted:916 (0x7fbb66df12b8 @ 367)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #4 0x7ffd22e7d940 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fbb66dd2230 @ 386)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #5 0x56159f1336e0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fbb567a9cd0 @ 22)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #6 0x7ffd22e7eca0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fbb66db5de0 @ 71)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #7 0x56159f133638 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fbb567a9340 @ 225)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #8 0x7ffd22e80000 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fbb66db5de0 @ 71)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #9 0x56159f1335c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fbb5679b4d8 @ 37)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #10 0x56159f133500 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7fbb7805a120 @ 431)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #11 0x56159f133480 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7fbb7805abc0 @ 13)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #12 0x7ffd22e80d70 b   self-hosted:251 (0x7fbb66dc4ab0 @ 223)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #13 0x56159f133400 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7fbb7805ab38 @ 64)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #14 0x56159f133380 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7fbb7805ac48 @ 87)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #15 0x7ffd22e82270 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fbb66dd2230 @ 386)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #16 0x7ffd22e82a80 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fbb66a6d670 @ 254)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #17 0x7ffd22e83e70 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fbb66db5de0 @ 71)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #18 0x56159f133240 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fbb66a6d450 @ 40)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #19 0x7ffd22e851d0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fbb66db5de0 @ 71)
+Oct 31 23:42:39 roy-VirtualBox gnome-software[1464]: no app for changed ubuntu-appindicators@ubuntu.com
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #20 0x56159f133198 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fbb66a4fbc0 @ 188)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #21 0x7ffd22e86530 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fbb66db5de0 @ 71)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #22 0x56159f133110 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7fbb66a4ecd0 @ 18)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #23 0x7ffd22e87890 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fbb66db5de0 @ 71)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #24 0x7ffd22e880a0 b   self-hosted:916 (0x7fbb66df12b8 @ 367)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #25 0x7ffd22e88ef0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fbb66dd2230 @ 386)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #26 0x56159f133090 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7fbb78038890 @ 29)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #27 0x56159f133008 i   resource:///org/gnome/shell/ui/tweener.js:113 (0x7fbb66dc8e68 @ 37)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #28 0x56159f132f68 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7fbb66dd2b38 @ 54)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #29 0x56159f132e48 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7fbb66dd2bc0 @ 1626)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #30 0x56159f132db8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7fbb66dd2c48 @ 100)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #31 0x56159f132d40 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7fbb66dd2cd0 @ 10)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #32 0x7ffd22e8be90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fbb66dd2230 @ 386)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #33 0x56159f132cb0 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7fbb66dcf808 @ 159)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #34 0x7ffd22e8d1f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fbb66db5de0 @ 71)
+Oct 31 23:42:39 roy-VirtualBox org.gnome.Shell.desktop[1253]: #35 0x56159f132c30 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7fbb66dcf780 @ 15)
+Oct 31 23:45:19 roy-VirtualBox gnome-software[1464]: no app for changed ubuntu-dock@ubuntu.com
+Oct 31 23:45:19 roy-VirtualBox gnome-software[1464]: no app for changed ubuntu-appindicators@ubuntu.com
+Oct 31 23:45:19 roy-VirtualBox gnome-shell[1253]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.61/org/ayatana/NotificationItem/software_update_available
+Oct 31 23:45:20 roy-VirtualBox gvfsd-metadata[1557]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Oct 31 23:45:20 roy-VirtualBox gvfsd-metadata[1557]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Nov  1 00:00:45 roy-VirtualBox systemd[1]: Started Run anacron jobs.
+Nov  1 00:00:45 roy-VirtualBox anacron[7605]: Anacron 2.3 started on 2018-11-01
+Nov  1 00:00:45 roy-VirtualBox anacron[7605]: Will run job `cron.daily' in 5 min.
+Nov  1 00:00:45 roy-VirtualBox anacron[7605]: Jobs will be executed sequentially
+Nov  1 00:02:52 roy-VirtualBox kernel: [ 4239.204473] e1000: enp0s3 NIC Link is Down
+Nov  1 00:02:54 roy-VirtualBox NetworkManager[586]: <info>  [1541044974.4090] device (enp0s3): carrier: link connected
+Nov  1 00:02:54 roy-VirtualBox NetworkManager[586]: <info>  [1541044974.4096] device (enp0s3): DHCPv4 lease renewal requested
+Nov  1 00:02:54 roy-VirtualBox NetworkManager[586]: <info>  [1541044974.4100] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 738
+Nov  1 00:02:54 roy-VirtualBox NetworkManager[586]: <info>  [1541044974.4100] dhcp4 (enp0s3): state changed bound -> done
+Nov  1 00:02:54 roy-VirtualBox NetworkManager[586]: <info>  [1541044974.4104] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 00:02:54 roy-VirtualBox kernel: [ 4241.220435] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  1 00:02:54 roy-VirtualBox NetworkManager[586]: <info>  [1541044974.4123] dhcp4 (enp0s3): dhclient started with pid 7625
+Nov  1 00:02:54 roy-VirtualBox dhclient[7625]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x2ad2bb4e)
+Nov  1 00:02:54 roy-VirtualBox dhclient[7625]: DHCPNAK from 192.168.86.1 (xid=0x4ebbd22a)
+Nov  1 00:02:54 roy-VirtualBox NetworkManager[586]: <info>  [1541044974.4357] dhcp4 (enp0s3): state changed unknown -> expire
+Nov  1 00:02:54 roy-VirtualBox NetworkManager[586]: <info>  [1541044974.4364] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 7625
+Nov  1 00:02:54 roy-VirtualBox NetworkManager[586]: <info>  [1541044974.4366] dhcp4 (enp0s3): state changed expire -> done
+Nov  1 00:02:54 roy-VirtualBox NetworkManager[586]: <info>  [1541044974.4370] device (enp0s3): scheduling DHCPv4 restart in 120 seconds, 3 tries left (reason: lease expired)
+Nov  1 00:04:20 roy-VirtualBox systemd-resolved[291]: Using degraded feature set (UDP) for DNS server 192.168.86.1.
+Nov  1 00:04:28 roy-VirtualBox systemd-resolved[291]: Using degraded feature set (TCP) for DNS server 192.168.86.1.
+Nov  1 00:04:30 roy-VirtualBox systemd-resolved[291]: Using degraded feature set (UDP) for DNS server 192.168.86.1.
+Nov  1 00:04:31 roy-VirtualBox org.gnome.Shell.desktop[1253]: (/usr/lib/firefox/firefox:7704): dconf-WARNING **: 00:04:31.444: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Nov  1 00:04:55 roy-VirtualBox NetworkManager[586]: <info>  [1541045095.2255] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 00:04:55 roy-VirtualBox NetworkManager[586]: <info>  [1541045095.2282] dhcp4 (enp0s3): dhclient started with pid 7810
+Nov  1 00:04:55 roy-VirtualBox dhclient[7810]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x405ad71e)
+Nov  1 00:04:55 roy-VirtualBox dhclient[7810]: DHCPNAK from 192.168.86.1 (xid=0x1ed75a40)
+Nov  1 00:04:55 roy-VirtualBox NetworkManager[586]: <info>  [1541045095.2543] dhcp4 (enp0s3): state changed unknown -> expire
+Nov  1 00:04:55 roy-VirtualBox NetworkManager[586]: <info>  [1541045095.2552] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 7810
+Nov  1 00:04:55 roy-VirtualBox NetworkManager[586]: <info>  [1541045095.2553] dhcp4 (enp0s3): state changed expire -> done
+Nov  1 00:04:55 roy-VirtualBox NetworkManager[586]: <info>  [1541045095.2556] device (enp0s3): scheduling DHCPv4 restart in 120 seconds, 2 tries left (reason: lease expired)
+Nov  1 00:04:58 roy-VirtualBox systemd-resolved[291]: Using degraded feature set (TCP) for DNS server 192.168.86.1.
+Nov  1 00:04:59 roy-VirtualBox systemd-resolved[291]: Using degraded feature set (UDP) for DNS server 192.168.86.1.
+Nov  1 00:05:08 roy-VirtualBox systemd-resolved[291]: Using degraded feature set (TCP) for DNS server 192.168.86.1.
+Nov  1 00:05:38 roy-VirtualBox systemd-resolved[291]: Using degraded feature set (UDP) for DNS server 192.168.86.1.
+Nov  1 00:05:38 roy-VirtualBox systemd-resolved[291]: Using degraded feature set (TCP) for DNS server 192.168.86.1.
+Nov  1 00:05:39 roy-VirtualBox systemd-resolved[291]: Using degraded feature set (UDP) for DNS server 192.168.86.1.
+Nov  1 00:05:39 roy-VirtualBox systemd-resolved[291]: Using degraded feature set (TCP) for DNS server 192.168.86.1.
+Nov  1 00:05:44 roy-VirtualBox systemd-resolved[291]: Using degraded feature set (UDP) for DNS server 192.168.86.1.
+Nov  1 00:05:45 roy-VirtualBox anacron[7605]: Job `cron.daily' started
+Nov  1 00:05:45 roy-VirtualBox anacron[7845]: Updated timestamp for job `cron.daily' to 2018-11-01
+Nov  1 00:05:45 roy-VirtualBox cracklib: no dictionary update necessary.
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Reloading The Apache HTTP Server.
+Nov  1 00:05:45 roy-VirtualBox apachectl[7967]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Reloaded The Apache HTTP Server.
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Stopping Make remote CUPS printers available locally...
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Stopped Make remote CUPS printers available locally.
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Stopping CUPS Scheduler...
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Stopped CUPS Scheduler.
+Nov  1 00:05:45 roy-VirtualBox gsd-color[1390]: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_HP_Officejet_Pro_8610_0E01AE_
+Nov  1 00:05:45 roy-VirtualBox gsd-color[1011]: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_HP_Officejet_Pro_8610_0E01AE_
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Stopped CUPS Scheduler.
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Stopping CUPS Scheduler.
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Started CUPS Scheduler.
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Closed CUPS Scheduler.
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Stopping CUPS Scheduler.
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Listening on CUPS Scheduler.
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Started CUPS Scheduler.
+Nov  1 00:05:45 roy-VirtualBox systemd[1]: Started Make remote CUPS printers available locally.
+Nov  1 00:05:45 roy-VirtualBox colord[657]: failed to get session [pid 7988]: No data available
